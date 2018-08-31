@@ -2,7 +2,7 @@
 
 Just a clean way to gracefully degrade from modern browsers to IE11 support. (This means without bloating modern browser code).
 
-It takes your source code > compiles lossely for modern browsers > compiles for IE11 like browsers > feature detects to determine if the browser is modern or IE11 like. jekyllhyde compiles using [Buble](https://buble.surge.sh/guide/) 
+It takes your source code > compiles loosely for modern browsers > compiles for IE11 like browsers > feature detects to determine if the browser is modern or IE11 like. jekyllhyde compiles using [Buble](https://buble.surge.sh/guide/) 
 
 
 This is a boilerplate consisting of:
