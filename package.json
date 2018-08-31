@@ -1,7 +1,7 @@
 {
   "name": "jekyllhyde",
   "version": "0.0.1",
-  "description": "A boilerplate for compiling modern browser scripts and IE11",
+  "description": "A boilerplate for compiling seperate modern browser and IE11-like scripts",
   "main": "/src/jekyllhyde.js",
   "repository": "git@github.com:julienetie/jekyllhyde.git",
   "author": "Julien Etienne <j8@protonmail.ch>",
