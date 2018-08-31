@@ -1,0 +1,19 @@
+{
+  "name": "jekyllhyde",
+  "version": "0.0.1",
+  "description": "A boilerplate for compiling modern browser scripts and IE11",
+  "main": "/src/jekyllhyde.js",
+  "repository": "git@github.com:julienetie/jekyllhyde.git",
+  "author": "Julien Etienne <j8@protonmail.ch>",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^0.64.1",
+    "rollup-plugin-buble": "^0.19.2",
+    "rollup-plugin-commonjs": "^9.1.5",
+    "rollup-plugin-node-resolve": "^3.3.0"
+  },
+  "scripts":{
+    "build": "rollup -c ./build/rollup.config.js && rollup -c ./build/rollup.config.ie11.like.js | yarn copy-ie11",
+    "copy-ie11": "cp ./src/jekyllhyde.js ./dist/jekyllhyde.js"
+  }
+}
