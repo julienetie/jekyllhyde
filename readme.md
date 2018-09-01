@@ -38,7 +38,7 @@ in modern evergreen browsers. To determine this jekyllhyde uses:
 - window.Object.assign
 
 The script options are defined in jekyllhyde.js and may require some basic DOM manipulation.
-The script is loaded asynchronously. currently jekyllhyde only supports one script. 
+The script is loaded asynchronously.
 
 ### Options
 - Define cache invalidation hash 
