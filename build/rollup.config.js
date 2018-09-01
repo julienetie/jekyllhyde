@@ -20,7 +20,7 @@ export default {
     ],
     output: {
         name: "example",
-        file: "dist/wavefront.js",
+        file: "dist/example.js",
         format: 'iife'
     }
 }
