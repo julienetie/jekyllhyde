@@ -116,7 +116,8 @@
      *
      */
     const isIE11Like = scripts.features.some(function(value){return !value});
-    console.log('isIE11Like', isIE11Like)
+
+
     /** 
      * 
      *
